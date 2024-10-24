@@ -15,8 +15,7 @@ const heroSchema = new Schema({
     },
     monsterDefeated: {
         type: [Schema.Types.ObjectId],
-        ref: 'Monster',
-        required: true
+        ref: 'Monster'
     }
 });
 
